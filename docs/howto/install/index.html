@@ -234,7 +234,7 @@
 		<div class="wrapper">
 			<h1>Install Melody </h1>
 
-			<p>Binary builds are available in the <a href="https://github.com/mdy/melody/releases">Releases</a> section of the GitHub repo.  Just download and uncompress the Melody executable file into your <code>bin</code> directory. To get the latest unstable features or start contributing, you can also <a href="https://github.com/mdy/melody#building-from-source">build Melody from source</a>.</p>
+			<p>Binary builds are available in the <a href="https://github.com/mdy/melody/releases">Releases</a> section of the GitHub repo.  Just download and uncompress the Melody executable file into your <code>/usr/local/bin</code> directory. To get the latest unstable features or start contributing, you can also <a href="https://github.com/mdy/melody#building-from-source">build Melody from source</a>.</p>
 
 <p></p>
 
@@ -242,7 +242,7 @@
 
 <pre><code class="language-bash">curl -LH &quot;X-SysInfo: $(uname -a)&quot; https://melody.sh/download | gzip -d &gt; melody
 chmod u+x ./melody
-mv ./melody ~/bin
+mv ./melody /usr/local/bin/
 </code></pre>
 
 <p>Which will download one of the following <a href="https://github.com/mdy/melody/releases">releases</a>:</p>
